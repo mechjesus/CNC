@@ -1,0 +1,13 @@
+2.1 
+If performance is measured on T steps, and the agent hits that number of steps, then the agent would no longer
+have a goal regardless of enviroment. 
+
+3.14
+a)True. Since A* will guess where to search from, where as DFS will always expand from the deepest node. At most A* 
+will be equal to the DFS however never more. 
+b)True. By definition if goal = n then h(n) = 0.
+c)
+d)True. Zero steps are not an issue  since there is the starting node. 
+e)True. Since Manhattan distance is used for vertical and horizontal, it is a prefect match for a rook.
+
+3.15
