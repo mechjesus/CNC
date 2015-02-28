@@ -1,0 +1,6 @@
+(1/2) * sumnation (x[i] - mean(x)) ^ 2
+= (1/2) * (sumnation (x[i] ^ 2) - 2*x[i]*mean(x) + mean(x)^2))
+= (1/2) * (sumnation (x[i] ^ 2) - sumnation (2*x[i]*mean(x)) + sumnation(mean(x)^2))
+= (1/2) * (sumnation (x[i] ^ 2) + sumnation (mean(x))^2 - 2*mean(x)*sumnation(x[i])))
+= (1/2) * (sumnation (x[i] ^ 2) + mean(x)^2^n - 2^mean(x)^2*n)
+= (1/2) * (sumnation (x[i] ^ 2) - mean(s)^2*n)
