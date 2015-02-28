@@ -1,0 +1,47 @@
+18.3
+If the training set provided is large enough the correct tree will be produced. The reason for this is because the algorithm
+is breaking down the problem using recursion and solving it. Eventually it will find the solution or in some cases determine
+no solution. 
+
+18.4
+Still unable to solve. Had hard time finding outside help with this one as well.
+
+18.6
+              A1
+	         1 /  \ 0
+	         /      \   1    0
+	       A2       A2 - A3 - 0
+     1 /  \ 0
+  1	 /      \
+1---A3       A3
+   /      1 /  \ 0
+ / 0      /      \
+1        0         0
+
+18.7
+(This is also one of the coolest looking decision trees I have seen)
+	                    	A1
+		                0 /    \ 1
+        0      0    /        \    0      1
+     0-----A3-----A2          A2-----A3-----0
+           |      |            |      |       
+         1 |     1|            |1     |0
+           |      |            |      |
+           1      A3          A3      1
+              0 /    \ 1  0 /    \ 1
+              /        \  /        \
+             1           0          1
+             
+A1 | A2 | A3 | Output
+	0  | 0  | 0  | 0
+	1  | 0  | 1  | 0
+	1  | 1  | 0  | 0
+	0  | 1  | 1  | 0
+	1  | 1  | 1  | 1
+	1  | 0  | 0  | 1
+	0  | 1  | 0  | 1
+	0  | 0  | 1  | 1
+	
+	18.11 
+	The reason for a zero as a result would be that the majority classifier is unable to find a majority, since there are 
+	equal amounts of neg. and pos. numbers being fed. 
