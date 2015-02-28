@@ -1,10 +1,22 @@
 18.15
-
 The median is the value to minimize the loss function.  For L1 the median of these numbers would be 7.
 Where as the L2 would find the average, this case being 20.3
 
 18.16
+x(2/1) + x(2/2) - 2ax1 - 2bx2 + (a^2 + b^2 - r^2) = 0
+weights w = (2a, 2b, 1, 1)
 
+cx(2/1) + dx(2/2) - 2acx1 - 2bdx2 + (a^2c + b^2d -1) = 0
+weights w = (2ac, 2bd, c, d, 0)
 
 18.18
+I was unable to solve this or find others who had and were able to help. 
+
 18.19
+x1 - - - - - - - >
+ \                  (x1 && !x2) - - - - \
+  \   /- - - - ->                        \ - - ->  
+   \ /                                            (x1 && !x2) || (!x1 && x2)
+   / \                                     - - -> 
+  /   - - - - - >                         /
+x2 - - - - -  - >   (!x1 && x2) - - - - /
